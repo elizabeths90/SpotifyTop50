@@ -1,0 +1,11 @@
+Package: SpotifySchatzProject
+Title: This package will chart a users recently played songs
+Version: 0.0.0.9000
+Authors@R: 
+    person("Elizabet", "Schatz", email = "eschatz@usf.edu", role = c("aut", "cre"))
+Description: This package will gather a users 50 most recently played songs by a user, and graph a chart based on the fequency each of those most played songs have been played. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
