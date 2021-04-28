@@ -59,3 +59,11 @@ this code. You will want to make sure your limit is set to the correct
 number o songs you wish to pull for your data, in this case, we will be
 setting our limit at 50 sogns. The word “key” will be used to log in the
 user.
+
+\#Download SpotifyR devtools::install\_github(“charlie86/spotifyr”)
+
+\#Load SpotifyR library(spotifyr)
+
+\#Authenticate the user information Sys.setenv(SPOTIFY\_CLIENT\_ID =
+“xxxxxxxxxxxxxxxxxxxxx”) Sys.setenv(SPOTIFY\_CLIENT\_SECRET =
+“xxxxxxxxxxxxxxxxxxxxx”) access\_token = get\_spotify\_access\_token()
