@@ -55,3 +55,15 @@ where appropriate:
 First the user will hve to make sure they have their personal Spotify account autheniticated in order to access the information necessary for this code. 
 You will want to make sure your limit is set to the correct number o songs you wish to pull for your data, in this case, we will be setting our limit at 50 sogns. 
 The word "key" will be used to log in the user. 
+
+#Download SpotifyR
+devtools::install_github("charlie86/spotifyr")
+
+#Load SpotifyR
+library(spotifyr)
+
+#Authenticate the user information 
+Sys.setenv(SPOTIFY_CLIENT_ID = "xxxxxxxxxxxxxxxxxxxxx")
+Sys.setenv(SPOTIFY_CLIENT_SECRET = "xxxxxxxxxxxxxxxxxxxxx")
+access_token = get_spotify_access_token()
+
