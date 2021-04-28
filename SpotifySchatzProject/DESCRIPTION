@@ -1,5 +1,5 @@
 Package: SpotifySchatzProject
-Title: This package will chart a users recently played songs
+Title: This package will gather and chart a users recently played songs
 Version: 0.0.0.9000
 Authors@R: 
     person("Elizabet", "Schatz", email = "eschatz@usf.edu", role = c("aut", "cre"))
