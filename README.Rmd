@@ -43,7 +43,8 @@ There are two functions currently in use with this package: Getting the users to
 To begin, the user must first enter the following code, inserting their keys 
 where appropriate:
 
-```my_function = function(key){
+```{r}
+my_function = function(key){
   
   new_object = spotifyr::get_my_recently_played(limit = 50)
   
@@ -56,14 +57,24 @@ First the user will hve to make sure they have their personal Spotify account au
 You will want to make sure your limit is set to the correct number o songs you wish to pull for your data, in this case, we will be setting our limit at 50 sogns. 
 The word "key" will be used to log in the user. 
 
+
 #Download SpotifyR
+```{r}
 devtools::install_github("charlie86/spotifyr")
+```
+
 
 #Load SpotifyR
+```{r}
 library(spotifyr)
+```
+
 
 #Authenticate the user information 
+```{r}
 Sys.setenv(SPOTIFY_CLIENT_ID = "xxxxxxxxxxxxxxxxxxxxx")
 Sys.setenv(SPOTIFY_CLIENT_SECRET = "xxxxxxxxxxxxxxxxxxxxx")
 access_token = get_spotify_access_token()
+```
+
 
