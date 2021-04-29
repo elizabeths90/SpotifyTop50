@@ -1,4 +1,4 @@
-Package: SpotifySchatzProject
+Package: spotify50
 Title: This package will gather and chart a users recently played songs
 Version: 0.0.0.9000
 Authors@R: 
