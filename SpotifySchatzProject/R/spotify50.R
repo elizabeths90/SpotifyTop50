@@ -20,7 +20,7 @@ spotify50 = function(id, secret){
  
   new_object = spotifyr::get_my_recently_played(limit = 50)
   
-  new_object %>% ggplot2::ggplot [] 
+  new_object %>% ggplot2::ggplot [ESQUISSSER CODE HERE] 
   
 }
 
